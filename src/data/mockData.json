@@ -1,8 +1,8 @@
 {
   "user": {
-    "name": "Alex Morgan",
-    "email": "alex.morgan@example.com",
-    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex",
+    "name": "Rajesh Sharma",
+    "email": "rajesh.sharma@example.com",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Rajesh",
     "role": "Product Manager",
     "joinDate": "2023-01-15"
   },
@@ -13,31 +13,95 @@
     "completionRate": 87.5
   },
   "revenueData": [
-    { "month": "Jan", "revenue": 42000, "expenses": 28000, "profit": 14000 },
-    { "month": "Feb", "revenue": 38500, "expenses": 26500, "profit": 12000 },
-    { "month": "Mar", "revenue": 45200, "expenses": 29800, "profit": 15400 },
-    { "month": "Apr", "revenue": 51000, "expenses": 32000, "profit": 19000 },
-    { "month": "May", "revenue": 48300, "expenses": 30500, "profit": 17800 },
-    { "month": "Jun", "revenue": 59750, "expenses": 35200, "profit": 24550 }
+    {
+      "month": "Jan",
+      "revenue": 42000,
+      "expenses": 28000,
+      "profit": 14000
+    },
+    {
+      "month": "Feb",
+      "revenue": 38500,
+      "expenses": 26500,
+      "profit": 12000
+    },
+    {
+      "month": "Mar",
+      "revenue": 45200,
+      "expenses": 29800,
+      "profit": 15400
+    },
+    {
+      "month": "Apr",
+      "revenue": 51000,
+      "expenses": 32000,
+      "profit": 19000
+    },
+    {
+      "month": "May",
+      "revenue": 48300,
+      "expenses": 30500,
+      "profit": 17800
+    },
+    {
+      "month": "Jun",
+      "revenue": 59750,
+      "expenses": 35200,
+      "profit": 24550
+    }
   ],
   "userGrowth": [
-    { "month": "Jan", "users": 8420 },
-    { "month": "Feb", "users": 9150 },
-    { "month": "Mar", "users": 9890 },
-    { "month": "Apr", "users": 10650 },
-    { "month": "May", "users": 11520 },
-    { "month": "Jun", "users": 12847 }
+    {
+      "month": "Jan",
+      "users": 8420
+    },
+    {
+      "month": "Feb",
+      "users": 9150
+    },
+    {
+      "month": "Mar",
+      "users": 9890
+    },
+    {
+      "month": "Apr",
+      "users": 10650
+    },
+    {
+      "month": "May",
+      "users": 11520
+    },
+    {
+      "month": "Jun",
+      "users": 12847
+    }
   ],
   "projectStatus": [
-    { "status": "Completed", "count": 45, "percentage": 45 },
-    { "status": "In Progress", "count": 35, "percentage": 35 },
-    { "status": "Planning", "count": 15, "percentage": 15 },
-    { "status": "On Hold", "count": 5, "percentage": 5 }
+    {
+      "status": "Completed",
+      "count": 45,
+      "percentage": 45
+    },
+    {
+      "status": "In Progress",
+      "count": 35,
+      "percentage": 35
+    },
+    {
+      "status": "Planning",
+      "count": 15,
+      "percentage": 15
+    },
+    {
+      "status": "On Hold",
+      "count": 5,
+      "percentage": 5
+    }
   ],
   "recentActivities": [
     {
       "id": 1,
-      "user": "Sarah Chen",
+      "user": "Priya Patel",
       "action": "completed",
       "target": "Mobile App Redesign",
       "timestamp": "2 hours ago",
@@ -45,7 +109,7 @@
     },
     {
       "id": 2,
-      "user": "Mike Johnson",
+      "user": "Arjun Reddy",
       "action": "started",
       "target": "API Integration Phase 2",
       "timestamp": "4 hours ago",
@@ -53,7 +117,7 @@
     },
     {
       "id": 3,
-      "user": "Emma Davis",
+      "user": "Sneha Gupta",
       "action": "commented on",
       "target": "Dashboard Analytics",
       "timestamp": "6 hours ago",
@@ -61,7 +125,7 @@
     },
     {
       "id": 4,
-      "user": "James Wilson",
+      "user": "Vikram Singh",
       "action": "uploaded",
       "target": "Design Assets v2.0",
       "timestamp": "8 hours ago",
@@ -69,7 +133,7 @@
     },
     {
       "id": 5,
-      "user": "Lisa Anderson",
+      "user": "Ananya Iyer",
       "action": "reviewed",
       "target": "Code Review PR #234",
       "timestamp": "1 day ago",
@@ -111,11 +175,31 @@
     }
   ],
   "teamPerformance": [
-    { "team": "Engineering", "score": 92, "members": 24 },
-    { "team": "Design", "score": 88, "members": 12 },
-    { "team": "Marketing", "score": 85, "members": 18 },
-    { "team": "Sales", "score": 90, "members": 15 },
-    { "team": "Support", "score": 94, "members": 20 }
+    {
+      "team": "Engineering",
+      "score": 92,
+      "members": 24
+    },
+    {
+      "team": "Design",
+      "score": 88,
+      "members": 12
+    },
+    {
+      "team": "Marketing",
+      "score": 85,
+      "members": 18
+    },
+    {
+      "team": "Sales",
+      "score": 90,
+      "members": 15
+    },
+    {
+      "team": "Support",
+      "score": 94,
+      "members": 20
+    }
   ],
   "notifications": [
     {
