@@ -1,0 +1,74 @@
+.stat-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--gradient-primary);
+    opacity: 0;
+    transition: opacity var(--transition-base);
+}
+
+.stat-card:hover::before {
+    opacity: 1;
+}
+
+.stat-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+}
+
+.stat-card-title {
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.stat-card-icon {
+    font-size: 1.5rem;
+    opacity: 0.6;
+}
+
+.stat-card-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.2;
+}
+
+.stat-card-change {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.stat-card-change.positive {
+    color: var(--color-success);
+}
+
+.stat-card-change.negative {
+    color: var(--color-danger);
+}
+
+.change-indicator {
+    font-size: 1.125rem;
+}
+
+.change-label {
+    color: var(--color-text-tertiary);
+    font-weight: 400;
+    margin-left: var(--spacing-xs);
+}
